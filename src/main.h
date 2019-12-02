@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define APP_VERSION "v1.0"
+
 #include <getopt.h>
 #include "error.h"
 
