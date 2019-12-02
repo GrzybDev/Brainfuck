@@ -5,8 +5,10 @@ CONFIG -= qt
 
 SOURCES += \
         src/error.cpp \
+        src/help.cpp \
         src/main.cpp
 
 HEADERS += \
     src/error.h \
+    src/help.h \
     src/main.h
