@@ -6,4 +6,7 @@
 
 using namespace std;
 
+void printVersion();
+void printHelp();
+
 #endif // HELP_H
