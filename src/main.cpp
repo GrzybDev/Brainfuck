@@ -19,7 +19,7 @@ int main(int argc, char** argv)
             case 'i':
                 break;
             default:
-                break;
+                fatalError(ERROR_INVALID_ARGUMENT, "Invalid argument provided!");
         }
     }
 

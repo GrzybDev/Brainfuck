@@ -2,6 +2,8 @@
 #define ERROR_H
 
 #define ERROR_NO_ARGUMENTS 1
+#define ERROR_INVALID_ARGUMENT 2
+
 #include <iostream>
 
 using namespace std;
