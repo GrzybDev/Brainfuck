@@ -1,4 +1,5 @@
 #include "main.h"
+#include "help.h"
 
 int main(int argc, char** argv)
 {
@@ -13,8 +14,10 @@ int main(int argc, char** argv)
 
         switch (opt) {
             case 'h':
+                printHelp();
                 break;
             case 'v':
+                printVersion();
                 break;
             case 'i':
                 break;
