@@ -9,6 +9,7 @@ class Interpreter
 {
 public:
     Interpreter(string fileData);
+    void run();
 };
 
 #endif // INTERPRETER_H
