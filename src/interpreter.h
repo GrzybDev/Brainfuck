@@ -8,7 +8,7 @@ using namespace std;
 class Interpreter
 {
 public:
-    Interpreter();
+    Interpreter(string fileData);
 };
 
 #endif // INTERPRETER_H
