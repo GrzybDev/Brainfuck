@@ -2,7 +2,8 @@
 
 int main(int argc, char** argv)
 {
-    if (argc == 0) ;
+    if (argc == 1) // Only executable path is provided, no arguments
+        fatalError(ERROR_NO_ARGUMENTS, "No arguments provided!");
 
     while (true) {
         const auto opt = getopt_long(argc, argv, short_opts, long_opts, nullptr);

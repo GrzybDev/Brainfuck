@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <getopt.h>
+#include "error.h"
 
 const static char* short_opts = "hvi:";
 const static option long_opts[] = {
