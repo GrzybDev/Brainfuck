@@ -35,8 +35,12 @@ int main(int argc, char** argv)
             case 'v':
                 printVersion();
                 break;
-            case 'i':
+            case 'i': {
+                string fileData = readFile(optarg);
+                Interpreter(fileData).run();
+
                 break;
+            }
             default:
                 fatalError(ERROR_INVALID_ARGUMENT, "Invalid argument provided!");
         }
