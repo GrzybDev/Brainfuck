@@ -1,5 +1,21 @@
 #include "main.h"
 
+string readFile(string path) {
+    ifstream fileContext(path, ios::in);
+    stringstream strStream;
+    string fileContent;
+
+    if (fileContext.good() && fileContext.is_open()) {
+        fileContext.seekg(0, ios::end);
+        strStream << fileContext.rdbuf();
+        fileContent = strStream.str();
+    } else {
+        fatalError(ERROR_FAILED_TO_READ_FILE, "Failed to read file located at path: " + path);
+    }
+
+    fileContext.close();
+    return fileContent;
+}
 
 int main(int argc, char** argv)
 {
