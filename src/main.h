@@ -7,6 +7,8 @@
 #include <sstream>
 #include <getopt.h>
 #include "error.h"
+#include "help.h"
+#include "interpreter.h"
 
 const static char* short_opts = "hvi:";
 const static option long_opts[] = {
