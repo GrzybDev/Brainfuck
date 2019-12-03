@@ -6,7 +6,6 @@ string readFile(string path) {
     string fileContent;
 
     if (fileContext.good() && fileContext.is_open()) {
-        fileContext.seekg(0, ios::end);
         strStream << fileContext.rdbuf();
         fileContent = strStream.str();
     } else {
