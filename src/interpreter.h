@@ -1,6 +1,15 @@
 #ifndef INTERPRETER_H
 #define INTERPRETER_H
 
+#define BRAINFUCK_TOKEN_INCREMENT '+'
+#define BRAINFUCK_TOKEN_DECREMENT '-'
+#define BRAINFUCK_TOKEN_PREVIOUS '<'
+#define BRAINFUCK_TOKEN_NEXT '>'
+#define BRAINFUCK_TOKEN_OUTPUT '.'
+#define BRAINFUCK_TOKEN_INPUT ','
+#define BRAINFUCK_TOKEN_LOOP_START '['
+#define BRAINFUCK_TOKEN_LOOP_END ']'
+
 #include <iostream>
 
 using namespace std;
