@@ -23,6 +23,12 @@ class Interpreter
 public:
     Interpreter(string fileData);
     void run();
+private:
+    string code;
+    string::const_iterator instructionPointer;
+
+    vector<char> memory;
+    vector<char>::iterator dataPointer;
 };
 
 #endif // INTERPRETER_H
