@@ -10,6 +10,7 @@ SOURCES += \
         src/main.cpp
 
 HEADERS += \
+    src/config.h \
     src/error.h \
     src/help.h \
     src/interpreter.h \
