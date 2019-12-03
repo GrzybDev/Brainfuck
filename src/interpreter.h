@@ -11,6 +11,10 @@
 #define BRAINFUCK_TOKEN_LOOP_END ']'
 
 #include <iostream>
+#include <vector>
+#include <iterator>
+#include <stack>
+#include "error.h"
 
 using namespace std;
 
