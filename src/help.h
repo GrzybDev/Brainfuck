@@ -2,7 +2,7 @@
 #define HELP_H
 
 #include <iostream>
-#include "main.h"
+#include "config.h"
 
 using namespace std;
 

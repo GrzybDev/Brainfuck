@@ -1,8 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define APP_VERSION "v1.0"
-
 #include <fstream>
 #include <sstream>
 #include <getopt.h>
