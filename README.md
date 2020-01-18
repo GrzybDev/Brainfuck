@@ -13,6 +13,8 @@
 ## General Information
 This project was created in [Qt Creator](https://www.qt.io/). This means that Qt needs to be installed and configured on your system in order to compile it. You need to use `qmake` to build project.
 
+> I created this project only for educational purposes, to verify my knowledge about C++ programming language.
+
 ## Technologies
 * Written in C++11
 
