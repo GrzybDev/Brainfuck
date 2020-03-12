@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## General Information
-This project was created in [Qt Creator](https://www.qt.io/). This means that Qt needs to be installed and configured on your system in order to compile it. You need to use `qmake` to build project.
+This project was created in [Qt Creator](https://www.qt.io/). But it uses `CMake` build system, so you should be able to compile it in any environment where `CMake` is present.
 
 > I created this project only for educational purposes, to verify my knowledge about C++ programming language.
 
@@ -21,8 +21,8 @@ This project was created in [Qt Creator](https://www.qt.io/). This means that Qt
 ## Setup
 
 After cloning this repository:
-- Run `qmake Brainfuck.pro` in order to generate Makefile's
-- Run `make` in order to build it
+- Run `cmake -G "CodeBlocks - MinGW Makefiles" path_to_repo` in order to generate Makefile's
+- Run `cmake` in order to build it
 
 ## Features
 - Execute any code written in Brainfuck
