@@ -21,8 +21,8 @@ This project was created in [Qt Creator](https://www.qt.io/). But it uses `CMake
 ## Setup
 
 After cloning this repository:
-- Run `cmake -G "CodeBlocks - MinGW Makefiles" path_to_repo` in order to generate Makefile's
-- Run `cmake` in order to build it
+- Run `cmake path_to_repo` in order to generate Makefile's
+- Run `make` in order to build it
 
 ## Features
 - Execute any code written in Brainfuck
